@@ -1,0 +1,29 @@
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: purple;
+    font-family: serif;
+  }
+  
+  .time-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .time-display > p {
+    font-size: 10rem;
+  }
+  
+  .timer-button-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: bold;
+  }
+
+  .bg {
+    border-radius: 50%;
+    color: white;
+    background-color: purple;
+  }

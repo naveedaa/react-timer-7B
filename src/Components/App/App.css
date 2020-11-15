@@ -1,0 +1,31 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../Image/bg-img.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.app-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+ 
+.head {
+	margin-top: 1vh;
+	color: purple;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-family: serif;
+}
+  
